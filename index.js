@@ -24,11 +24,11 @@ function sayHiToGrandma(string){
   if (string === string.toUpperCase()){
     return "YES INDEED!"
   }
+  if (string === "I love you, Grandma."){
+    return "I love you, too."
+  }
 }
 
-//   it('returns "YES INDEED!" if `string` is uppercase', function() {
-//     expect(sayHiToGrandma('HELLO')).toEqual("YES INDEED!")
-//   })
 
 //   it('returns "I love you, too." if `string` is "I love you, Grandma."`', function() {
 //     expect(sayHiToGrandma("I love you, Grandma.")).toEqual("I love you, too.")
